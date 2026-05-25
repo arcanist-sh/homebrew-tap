@@ -1,26 +1,26 @@
 class Hx < Formula
   desc "Fast, opinionated Haskell toolchain CLI"
-  homepage "https://github.com/raskell-io/hx"
-  version "0.4.1"
+  homepage "https://arcanist.sh/hx/"
+  version "0.6.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/raskell-io/hx/releases/download/v0.4.1/hx-v0.4.1-aarch64-apple-darwin.tar.gz"
-      sha256 "bbac7322e6e229363c16494aef0dea5e8ec1615b0c5ae58b562a21ae58e030d7"
+      url "https://github.com/arcanist-sh/hx/releases/download/v0.6.0/hx-v0.6.0-aarch64-apple-darwin.tar.gz"
+      sha256 "275405aafb9399d27927dad87b2cf028986e34dd41057a1ddc912ec83c44fc2f"
     else
-      url "https://github.com/raskell-io/hx/releases/download/v0.4.1/hx-v0.4.1-x86_64-apple-darwin.tar.gz"
-      sha256 "dd53121f3b447904d13069a248064f579ee66efb344f4e070c58362b7e2e471e"
+      url "https://github.com/arcanist-sh/hx/releases/download/v0.6.0/hx-v0.6.0-x86_64-apple-darwin.tar.gz"
+      sha256 "40f940c80d9bb0dc8dc29246342dcbe861d2526541adb176f8f2fe78c6ef14e2"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/raskell-io/hx/releases/download/v0.4.1/hx-v0.4.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "a5fcb4b700fb52c36135a13c3996cf13176820ba919df1d439e06b4e85f453d9"
+      url "https://github.com/arcanist-sh/hx/releases/download/v0.6.0/hx-v0.6.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "c662038440f5e2ffad9b95af5b9549e1890b4acb810cc0bdb5c7d9f8b73b39c5"
     else
-      url "https://github.com/raskell-io/hx/releases/download/v0.4.1/hx-v0.4.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "e10f1306737a81bff158ca90f19ceb160f92a7bf2fd3f6391474861c9b8d8a26"
+      url "https://github.com/arcanist-sh/hx/releases/download/v0.6.0/hx-v0.6.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "a0809674a42bdb56c48800037b46b8b136e4faaf0f239756987ce0d0163004e1"
     end
   end
 
