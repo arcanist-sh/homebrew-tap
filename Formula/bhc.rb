@@ -1,13 +1,13 @@
 class Bhc < Formula
   desc "Basel Haskell Compiler - native code Haskell compiler"
   homepage "https://arcanist.sh/bhc/"
-  version "0.2.2"
-  license "MIT"
+  version "0.2.3"
+  license "BSD-3-Clause"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/arcanist-sh/bhc/releases/download/v0.2.2/bhc-aarch64-darwin.tar.gz"
-      sha256 "a4065c1669aee4b5faab55596aa82dfbce6e52029b0eed1aa629491354b2d4a3"
+      url "https://github.com/arcanist-sh/bhc/releases/download/v0.2.3/bhc-aarch64-darwin.tar.gz"
+      sha256 "f4bb303bd1892958dbd7a12a3fbff7bda6149b9ce2f46597d99957e2ffeb53ee"
     else
       odie "bhc is not available for Intel Macs. Apple Silicon required."
     end
@@ -15,8 +15,8 @@ class Bhc < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/arcanist-sh/bhc/releases/download/v0.2.2/bhc-x86_64-linux.tar.gz"
-      sha256 "cfd90504e6a6b141ec291cc4669eb18faa94e0235e61ba1602b51a7e44fcfbb5"
+      url "https://github.com/arcanist-sh/bhc/releases/download/v0.2.3/bhc-x86_64-linux.tar.gz"
+      sha256 "d621a962a4d18b2ba42ee26b62243ddcd090b1f930d104c144b1cba85f20e7f3"
     else
       odie "bhc is not available for Linux ARM. x86_64 required."
     end
