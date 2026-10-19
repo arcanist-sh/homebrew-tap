@@ -1,26 +1,26 @@
 class Hx < Formula
   desc "Fast, opinionated Haskell toolchain CLI"
   homepage "https://arcanist.sh/hx/"
-  version "0.9.3"
+  version "0.10.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/arcanist-sh/hx/releases/download/v0.9.3/hx-v0.9.3-aarch64-apple-darwin.tar.gz"
-      sha256 "86233e21395c4048c46021d449fb164e505138d61541b2c18c21042f99ba3422"
+      url "https://github.com/arcanist-sh/hx/releases/download/v0.10.0/hx-v0.10.0-aarch64-apple-darwin.tar.gz"
+      sha256 "37d57cae2600b8b5f120422e3b9f83f3f2aff8c8943a8a2a23881986d7055db5"
     else
-      url "https://github.com/arcanist-sh/hx/releases/download/v0.9.3/hx-v0.9.3-x86_64-apple-darwin.tar.gz"
-      sha256 "c63c763a1e9350102e896178317266b7d7c3f41030b643375b171cfd9d2994dc"
+      url "https://github.com/arcanist-sh/hx/releases/download/v0.10.0/hx-v0.10.0-x86_64-apple-darwin.tar.gz"
+      sha256 "14c9018d362fff8f2a3af42ca94bdd0a75e2e70cd51ac8b506bc6baea68e7d00"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/arcanist-sh/hx/releases/download/v0.9.3/hx-v0.9.3-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "080e13ec5519dac557c29bb0405a4cf40d2b49d6880edabcde65b5a14e94fd93"
+      url "https://github.com/arcanist-sh/hx/releases/download/v0.10.0/hx-v0.10.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "490daa7bfb0aa3077c67064ccd9b87877daa71f3b9d6179fe776c96225d56405"
     else
-      url "https://github.com/arcanist-sh/hx/releases/download/v0.9.3/hx-v0.9.3-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b3eeb066edef06018529457db83a4bdd90e74f9d67b0c3c8a585bc11c42ec461"
+      url "https://github.com/arcanist-sh/hx/releases/download/v0.10.0/hx-v0.10.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "a678a85acfdfa0ebbafad35f0295620d3d444dd2f96301103906650ec27baeaf"
     end
   end
 
