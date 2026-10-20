@@ -1,5 +1,5 @@
 class Hx < Formula
-  desc "Fast, opinionated Haskell toolchain CLI"
+  desc "Whole Haskell toolchain in one fast binary"
   homepage "https://arcanist.sh/hx/"
   version "0.10.1"
   license "MIT"
